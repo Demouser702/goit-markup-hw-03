@@ -23,32 +23,30 @@
               >
             </li>
             <li>
-              <a
-                class="navigation-list-item active-link"
-                href="portfolio.html"
-                target="_blank"
+              <a class="navigation-list-item active-link" href="portfolio.html"
                 >Portfolio</a
               >
             </li>
             <li>
-              <a
-                class="navigation-list-item"
-                href="contacts.html"
-                target="_blank"
-                >Contacts</a
-              >
+              <a class="navigation-list-item" href="contacts.html">Contacts</a>
             </li>
           </ul>
         </nav>
         <div class="contact-header">
-          <a
-            class="header-contact-links contact-links"
-            href="email:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <a class="header-contact-links contact-links" href="tel:12127724150"
-            >+1 212-772-4150</a
-          >
+          <div class="icons-list">
+            <a class="contact-links" href="email:info@devstudio.com">
+              <svg class="icon icon-envelope">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              <span>info@devstudio.com</span>
+            </a>
+            <a class="contact-links" href="tel:12127724150">
+              <svg class="icon icon-smartphone">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              <span>+1 212-772-4150</span></a
+            >
+          </div>
         </div>
       </div>
     </header>
@@ -220,23 +218,70 @@
     <section>
       <footer class="footer-section">
         <div class="container">
-          <a class="logo logo-footer" href="/index.html"
-            ><span class="blue-logo">Web</span
-            ><span class="white-logo">Studio</span></a
-          >
-          <address class="footer-address">695 Park Ave, NY 10065, USA</address>
-          <ul class="list footer-contacts-list">
-            <li>
-              <a class="contact-links" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
+          <div class="footer-columns">
+            <div>
+              <a class="logo logo-footer" href="/index.html"
+                ><span class="blue-logo">Web</span
+                ><span class="white-logo">Studio</span></a
               >
-            </li>
-            <li>
-              <a class="contact-links" href="tel:+11(000)1111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
+              <address class="footer-address">
+                695 Park Ave, NY 10065, USA
+              </address>
+              <ul class="list footer-contacts-list">
+                <li>
+                  <a class="contact-links" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a class="contact-links" href="tel:+11(000)1111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="social-footer">
+              <span class="footer-social-section">Find us on </span>
+              <div class="social-icons-list">
+                <a
+                  href="https://instagram.com"
+                  class="icon social-icon"
+                  aria-label="Instagram"
+                >
+                  <svg class="icon social-icons-item">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+                <a
+                  href="https://twitter.com"
+                  class="icon social-icon"
+                  aria-label="Twitter"
+                >
+                  <svg class="icon social-icons-item">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+                <a
+                  href="https://facebook.com"
+                  class="icon social-icon"
+                  aria-label="Facebook"
+                >
+                  <svg class="icon social-icons-item">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+                <a
+                  href="https://linkedin.com"
+                  class="icon social-icon"
+                  aria-label="linkedin"
+                >
+                  <svg class="icon social-icons-item">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </footer>
     </section>
